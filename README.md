@@ -2,7 +2,7 @@
 
 This is the discord bot used to interact with all Futurae Netcom projects
 
-Rules:
+# Rules:
 1.	final variables all caps separated by underlines
 	EXAMPLE_ X
 
@@ -13,7 +13,7 @@ Rules:
 	str_example, num_example, bool_example
 
 4.	functions have to have a comment explaining
-	# used as
+	"# used as"
 	def function_example():
 
 5.	after every function 2 new lines
@@ -32,7 +32,7 @@ Rules:
 	example: x + y * (z)
 
 11. wide space afer comment
-	# example
+	"# example"
 
 12. a line is too long if it has more than 80 chars
 
@@ -49,5 +49,4 @@ Rules:
 17. classes have to be imported at the top / commented
 	import x
 	import y
-
-# import: z, a
+	"# import: z, a"
