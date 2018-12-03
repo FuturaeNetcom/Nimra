@@ -7,16 +7,13 @@ Project: FuturaeNetcom/4chan
 """
 import ModelTraining
 import Scraping
-import Nimra
 
 
 # main part of the programm
-def main():
-    Nimra.send('Setup: Do you want to start by scraping? (y/n)', end='')
-    str_text = input()
-    if (str_text == 'y'):
+def main(bool_scraping):
+    if (bool_scraping):
         scraping()
-    elif (str_text == 'n'):
+    else:
         learning()
     return
 
