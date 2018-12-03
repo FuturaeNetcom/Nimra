@@ -7,11 +7,12 @@ Project: FuturaeNetcom/4chan
 """
 import ModelTraining
 import Scraping
+import Nimra
 
 
 # main part of the programm
 def main():
-    print('Setup: Do you want to start by scraping? (y/n)', end='')
+    Nimra.send('Setup: Do you want to start by scraping? (y/n)', end='')
     str_text = input()
     if (str_text == 'y'):
         scraping()
@@ -22,7 +23,6 @@ def main():
 
 # starts using ModelTraining.py
 def learning():
-    print('learning')
     ModelTraining.start('data/scraped_material-a-1543749875.txt',
                         None,
                         'floyd',
@@ -33,8 +33,7 @@ def learning():
 
 # starts using Scraping.py
 def scraping():
-    print('scraping')
-    Scraping.start()
+    Scraping.main(['a', 'v'])
     return
 
 
