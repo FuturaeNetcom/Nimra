@@ -1,0 +1,10 @@
+decrypt 
+
+ai to decrypt encryptions
+
+step 0:
+	clas containing different encryption methods with diffenrent strength
+step 1:
+	class to create .csv with original and encrypted version
+step 2:
+	training class for ai
