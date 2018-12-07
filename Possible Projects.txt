@@ -1,0 +1,40 @@
+Possible Projects:
+
+decription ai
+	step 0:
+		clas containing different encryption methods with diffenrent strength
+	step 1:
+		class to create .csv with encrypted text
+	step 2:
+		understand how analyze the data
+		https://security.stackexchange.com/questions/32779/how-would-one-crack-a-weak-but-unknown-encryption-protocol#32782
+	step 3:
+		create an algorithem to apply techniques learned in step 2
+
+paper.io bot
+	step 0:
+		gather information on video processing
+	step 1:
+		create live data
+	step 2:
+		edit live data for ai -> pipeline
+	step 3:
+		gather informatio od reinforced learning
+	step 4:
+		create ai
+
+chess ai
+	step 0:
+		choose programm to play on
+	step 1:
+		find chess data
+	step 2:
+		choose model type -> reinforcement learning?: ignore step 1
+	step 3:
+		edit data accordingly
+	step 4:
+		train model
+	step 5:
+		optimise model
+	step 6:
+		let models compete with eachother
