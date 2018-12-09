@@ -17,7 +17,6 @@ def main():
     list_screen_shoot = screen_record()
     list_image = procces_image(list_screen_shoot)
     show_image(list_image)
-    # TODO: analyze image and edit it
     return None
 
 
@@ -38,6 +37,8 @@ def show_image(list_image):
 
 # edits image
 def procces_image(list_image):
+    # TODO: analyze image and edit it
+    # TODO: tutorial: https://pythonprogramming.net/color-filter-python-opencv-tutorial/
     # convert to gray
     processed_img = cv2.cvtColor(list_image, cv2.COLOR_BGR2GRAY)
     # edge detection
